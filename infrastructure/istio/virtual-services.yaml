@@ -12,6 +12,8 @@ spec:
   - match:
     - uri:
         prefix: /sample-app
+    rewrite:
+      uri: /
     route:
     - destination:
         host: sample-app
